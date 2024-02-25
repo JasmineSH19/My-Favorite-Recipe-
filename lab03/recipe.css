@@ -1,0 +1,83 @@
+/* CSS styles for My Favorite Recipe HTML */
+
+/* Set pink background color and font family */
+body {
+    background-color: #ffc0cb; /* Pink background */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Margin */
+    padding: 20px;
+}
+
+/* Set text color and make it bold */
+body, h1, h2, p, ol, ul {
+    color: #333; /* Text color */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Recipe card container */
+.recipe-card {
+    background-color: #f9f9f9; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: -2px -1px 6px 0px rgba(0, 0, 0, 0.1), /* Left and top shadow */
+                2px 7px 6px 0px rgba(0, 0, 0, 0.1); /* Right and bottom shadow */
+    max-width: 600px; /* Maximum width */
+    margin: auto; /* Center the card */
+    position: relative; /* Position relative for absolute positioning of heart border */
+    overflow: hidden; /* Hide overflow content to prevent heart border from overflowing */
+}
+
+/* Style headings */
+h1 {
+    color: #d9534f;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h2 {
+    color: #5bc0de;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Style links */
+a {
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style recipe instructions */
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Style recipe description */
+.recipe-description {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #555;
+}
+
+/* Style recipe byline */
+.recipe-byline {
+    font-style: italic;
+    color: #777;
+}
+
+/* Style recipe source link */
+.recipe-source {
+    font-size: 16px;
+    color: #777;
+}
+
+
+
+
